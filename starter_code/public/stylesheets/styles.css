@@ -5,4 +5,43 @@ dark-blue: #0A2C42;
 grey: rgba(145, 145, 145, 0.481);
 font-family: Arial, Helvetica, sans-serif
 */
+.index-container img {
+    width: 35%;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 3em;
+    padding-bottom: 1em;
+}
+
+.button-index {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 0 auto;
+}
+
+.beer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    margin: 5% 0;
+}
+
+.beer-img {
+    max-height: 150px;
+    margin-left: 20px;
+}
+
+.random-container {
+    display: flex;
+    margin-top: 40px;
+}
+
+.img-container .beer-img {
+    max-height: 300px;
+    margin-right: 60px;
+}
+
+
   
